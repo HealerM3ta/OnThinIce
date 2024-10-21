@@ -6,32 +6,32 @@ using UnityEngine.UI;
 
 public class GameOverScript : MonoBehaviour
 {
-    public GameObject gameOverPanel; // Reference to the Game Over UI Panel
-    public Text gameOverText; // Reference to the Game Over text UI
+    public GameObject gameOverPanel; 
+    public Text gameOverText; 
 
     private void Start()
     {
-        gameOverPanel.SetActive(false); // Hide Game Over panel at start
+        gameOverPanel.SetActive(false); //initially hide game over
     }
 
-    public void GameOver()
+    public void GameOver() // Pause the game when player loses, display game over panel
     {
-        gameOverPanel.SetActive(true); // Show the Game Over panel
-        gameOverText.text = "Game Over!"; // Update the Game Over text
-        Time.timeScale = 0; // Pause the game
+        gameOverPanel.SetActive(true);
+        gameOverText.text = "Game Over!";
+        Time.timeScale = 0; 
     }
 
-    public void RestartGame()
+    public void RestartGame() //if player clicks restart, restart
     {
-        Time.timeScale = 1; // Reset time scale before restarting
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); // Reload the current scene
+        Time.timeScale = 1;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); 
     }
 
-    public void QuitGame()
+    public void QuitGame() //if player clicks quit, quit
     {
         Application.Quit();
         #if UNITY_EDITOR
-        UnityEditor.EditorApplication.isPlaying = false; // Stop playing in the editor
+        UnityEditor.EditorApplication.isPlaying = false; 
         #endif
     }
 }
