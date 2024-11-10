@@ -1,19 +1,19 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class FallingObjectSpawner : MonoBehaviour
 {
     public GameObject fallingObjectPrefab; // The prefab to instantiate
     public float spawnInterval; // Time between spawns
-    private GameOverScript gameOverScript; // Reference to the GameOverScript
+    private Health playerHealth; // Reference to the player's Health
 
     private void Start()
     {
-        gameOverScript = FindObjectOfType<GameOverScript>(); // Cache the GameOverScript reference
-        if (gameOverScript == null)
+        // Ensure playerHealth is set correctly by finding the Health script on the player
+        playerHealth = FindObjectOfType<Health>();  // Find the player's health script in the scene
+        if (playerHealth == null)
         {
-            Debug.LogError("GameOverScript not found in the scene!"); // Check if GameOverScript is correctly attached
+            Debug.LogError("Player's Health script not found in the scene!");
             return;
         }
 
@@ -23,7 +23,7 @@ public class FallingObjectSpawner : MonoBehaviour
 
     private IEnumerator SpawnFallingObjects()
     {
-        while (true) // Infinite loop for continuous spawning
+        while (true)
         {
             SpawnObject();
             yield return new WaitForSeconds(spawnInterval); // Wait for the specified interval
@@ -38,11 +38,11 @@ public class FallingObjectSpawner : MonoBehaviour
 
         // Instantiate the falling object at the spawn position
         GameObject newFallingObject = Instantiate(fallingObjectPrefab, spawnPosition, Quaternion.identity);
-        Debug.Log("Falling object spawned at: " + spawnPosition); // Log the spawn position
+        Debug.Log("Falling object spawned at: " + spawnPosition);
 
-        // Initialize the FallingObject with the GameOverScript reference
-        newFallingObject.GetComponent<FallingObject>().Initialize(gameOverScript);
-
+        // Initialize the FallingObject with the player's Health reference
+        newFallingObject.GetComponent<FallingObject>().Initialize(playerHealth);
+        
         // Start the coroutine to destroy the object after 10 seconds
         StartCoroutine(DestroyAfterTime(newFallingObject, 10f));
     }
@@ -53,4 +53,3 @@ public class FallingObjectSpawner : MonoBehaviour
         Destroy(objectToDestroy); // Destroy the falling object
     }
 }
-

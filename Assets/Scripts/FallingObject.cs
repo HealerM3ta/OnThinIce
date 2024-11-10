@@ -2,11 +2,12 @@ using UnityEngine;
 
 public class FallingObject : MonoBehaviour
 {
-    private GameOverScript gameOverScript;
+    private Health playerHealth; // Reference to the player's Health script
 
-    public void Initialize(GameOverScript gameOverScript)
+    // Initialize method to set the player's health reference
+    public void Initialize(Health playerHealth)
     {
-        this.gameOverScript = gameOverScript; // Set the GameOverScript reference
+        this.playerHealth = playerHealth; // Set the Health script reference
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -16,8 +17,17 @@ public class FallingObject : MonoBehaviour
         // Check if the object collided with the player
         if (collision.gameObject.CompareTag("Player")) // Check if the player was hit
         {
-            Debug.Log("Player hit! Game over triggered.");
-            gameOverScript.GameOver(); // Call the GameOver function
+            Debug.Log("Player hit! Reducing health.");
+            playerHealth.health -= 1; // Reduce the player's health by 1
+
+            // Optionally, check if health goes below 0 and handle game over
+            if (playerHealth.health <= 0)
+            {
+                playerHealth.health = 0; // Ensure health doesn't go negative
+                // Optionally trigger Game Over if health reaches 0
+                // gameOverScript.GameOver();
+            }
+
             Destroy(gameObject); // Destroy the falling object
         }
         // Check if the object collided with the ground
