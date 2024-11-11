@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -95,7 +95,301 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Berries_Small_Animated-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 3
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4976021d26d470141ae74f5f7f3fdc14
+      internalID: 337313204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berries_Small_Animated-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 3
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e444a5e065ee84a9ee2fc147420450
+      internalID: -1232489309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berries_Small_Animated-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 4
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2efccf0a6f18d488d129a4e1a8040e
+      internalID: -498952946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berries_Small_Animated-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 4
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c66844e622edf07479f216e82eaa96da
+      internalID: 1924237951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berries_Small_Animated-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 5
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fadb9c85595631e49a3822119b5d1576
+      internalID: -1805239342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berries_Small_Animated-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 5
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c320047429aeb7488b9932c4595fc92
+      internalID: 1664764549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berries_Small_Animated-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 6
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f4bcffdb57b8fb4e81298d2da0eb6ed
+      internalID: 684921957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berries_Small_Animated-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 6
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba9006e51b0fe9439a61f695416c8d4
+      internalID: -536272674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berries_Small_Animated-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 6
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78de9dc1d9414854ca76cd469d3a73fe
+      internalID: 39801571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berries_Small_Animated-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 5
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814b2c0dec9fa764d8a847a9f416b990
+      internalID: -47983976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berries_Small_Animated-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 5
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07fd6d80c3820be4781bab40171f3f13
+      internalID: -1747095250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berries_Small_Animated-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 4
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb1ab5849154c5418e9833bf5ed239a
+      internalID: -1535700504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berries_Small_Animated-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 4
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d9dd4e911e88b42bc571f5f8f1891c
+      internalID: 147314205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Berries_Small_Animated-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 3
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6678d5a696ee16c498a523462d9dfb89
+      internalID: -735440712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +400,21 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Berries_Small_Animated-Sheet_0: 337313204
+      Berries_Small_Animated-Sheet_1: -1232489309
+      Berries_Small_Animated-Sheet_10: -1747095250
+      Berries_Small_Animated-Sheet_11: -1535700504
+      Berries_Small_Animated-Sheet_12: 147314205
+      Berries_Small_Animated-Sheet_13: -735440712
+      Berries_Small_Animated-Sheet_2: -498952946
+      Berries_Small_Animated-Sheet_3: 1924237951
+      Berries_Small_Animated-Sheet_4: -1805239342
+      Berries_Small_Animated-Sheet_5: 1664764549
+      Berries_Small_Animated-Sheet_6: 684921957
+      Berries_Small_Animated-Sheet_7: -536272674
+      Berries_Small_Animated-Sheet_8: 39801571
+      Berries_Small_Animated-Sheet_9: -47983976
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
