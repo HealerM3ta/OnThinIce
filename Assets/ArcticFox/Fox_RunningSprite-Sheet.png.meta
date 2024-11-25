@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1886d981d71520d479466158d6034a62
+guid: 0c3985cb71d7cc74aa28a20dad8f7ffb
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -100,19 +100,19 @@ TextureImporter:
       name: Fox_RunningSprite-Sheet_0
       rect:
         serializedVersion: 2
-        x: 6
+        x: 36
         y: 0
-        width: 24
-        height: 16
+        width: 144
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8c850a85558c7e43bece3a9c1c04315
-      internalID: 559543217
+      spriteID: edee109732546db42b9eded2453d198a
+      internalID: -641891293
       vertices: []
       indices: 
       edges: []
@@ -121,19 +121,19 @@ TextureImporter:
       name: Fox_RunningSprite-Sheet_1
       rect:
         serializedVersion: 2
-        x: 37
+        x: 222
         y: 0
-        width: 26
-        height: 18
+        width: 156
+        height: 108
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d8f193dcdc7c5e44b3d12477c9ab750
-      internalID: -1475570718
+      spriteID: 8afbe6ace7e36564798479023696e368
+      internalID: 1460417078
       vertices: []
       indices: 
       edges: []
@@ -142,19 +142,19 @@ TextureImporter:
       name: Fox_RunningSprite-Sheet_2
       rect:
         serializedVersion: 2
-        x: 67
+        x: 402
         y: 0
-        width: 28
-        height: 17
+        width: 168
+        height: 102
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a860c5b196cd9834eb4610636d6cbb18
-      internalID: -1811921845
+      spriteID: ae143cbe1c670ca40862dea760e6533f
+      internalID: -1443562595
       vertices: []
       indices: 
       edges: []
@@ -163,19 +163,19 @@ TextureImporter:
       name: Fox_RunningSprite-Sheet_3
       rect:
         serializedVersion: 2
-        x: 101
+        x: 606
         y: 0
-        width: 26
-        height: 15
+        width: 156
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f48ab11779a9aec46a919e2bc17912dc
-      internalID: 919201318
+      spriteID: 63ea19393c53d7649a4f0abadc46bb8c
+      internalID: 1846040189
       vertices: []
       indices: 
       edges: []
@@ -184,19 +184,19 @@ TextureImporter:
       name: Fox_RunningSprite-Sheet_4
       rect:
         serializedVersion: 2
-        x: 133
+        x: 798
         y: 0
-        width: 26
-        height: 15
+        width: 156
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7303b61bfb3fd04ba41168154639a64
-      internalID: 1715334806
+      spriteID: aa0bf724cd9aa4d4b82449050e8b387a
+      internalID: 1898677865
       vertices: []
       indices: 
       edges: []
@@ -212,11 +212,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Fox_RunningSprite-Sheet_0: 559543217
-      Fox_RunningSprite-Sheet_1: -1475570718
-      Fox_RunningSprite-Sheet_2: -1811921845
-      Fox_RunningSprite-Sheet_3: 919201318
-      Fox_RunningSprite-Sheet_4: 1715334806
+      Fox_RunningSprite-Sheet_0: -641891293
+      Fox_RunningSprite-Sheet_1: 1460417078
+      Fox_RunningSprite-Sheet_2: -1443562595
+      Fox_RunningSprite-Sheet_3: 1846040189
+      Fox_RunningSprite-Sheet_4: 1898677865
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

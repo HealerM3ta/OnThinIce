@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0719ed2c9dfcd47488bb31a1a4e12399
+guid: bebf3943f32d1bb42bb5543f088e3b9f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -100,19 +100,19 @@ TextureImporter:
       name: Fox_JumpingSprite-Sheet_0
       rect:
         serializedVersion: 2
-        x: 3
+        x: 16
         y: 0
-        width: 28
-        height: 14
+        width: 171
+        height: 192
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c81f2db1658a0d84cb3aae459b7f6f76
-      internalID: -461851169
+      spriteID: 773d26f51527dcd44a351ebbb9fc14db
+      internalID: 1072176549
       vertices: []
       indices: 
       edges: []
@@ -121,19 +121,19 @@ TextureImporter:
       name: Fox_JumpingSprite-Sheet_1
       rect:
         serializedVersion: 2
-        x: 35
+        x: 208
         y: 0
-        width: 28
-        height: 14
+        width: 172
+        height: 86
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 757dac4884442c542b496c1653e9da57
-      internalID: 39879748
+      spriteID: 19dd4b46091fb5a4293bb24ad34f37fb
+      internalID: 654693634
       vertices: []
       indices: 
       edges: []
@@ -142,19 +142,19 @@ TextureImporter:
       name: Fox_JumpingSprite-Sheet_2
       rect:
         serializedVersion: 2
-        x: 65
+        x: 391
         y: 0
-        width: 30
-        height: 13
+        width: 181
+        height: 83
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 777f37f2eb9336b40beb15cf4d75fa64
-      internalID: 966421977
+      spriteID: 66544ed6b08e7894cbed63275c65f736
+      internalID: -660013444
       vertices: []
       indices: 
       edges: []
@@ -163,19 +163,19 @@ TextureImporter:
       name: Fox_JumpingSprite-Sheet_3
       rect:
         serializedVersion: 2
-        x: 97
+        x: 581
         y: 0
-        width: 30
-        height: 13
+        width: 182
+        height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5aee48f6335fb9e4aac95785c69d5ad0
-      internalID: -2130854804
+      spriteID: bbf2a2bd066e5d541b2a957185c1ac10
+      internalID: 1307886306
       vertices: []
       indices: 
       edges: []
@@ -184,19 +184,19 @@ TextureImporter:
       name: Fox_JumpingSprite-Sheet_4
       rect:
         serializedVersion: 2
-        x: 131
-        y: 6
-        width: 28
-        height: 14
+        x: 783
+        y: 35
+        width: 173
+        height: 89
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 213c0bec422fcab4db5b791073f52916
-      internalID: 452826104
+      spriteID: a2df43f3df7fa8943a322e5c4ec7c581
+      internalID: 2068514388
       vertices: []
       indices: 
       edges: []
@@ -205,19 +205,19 @@ TextureImporter:
       name: Fox_JumpingSprite-Sheet_5
       rect:
         serializedVersion: 2
-        x: 163
-        y: 8
-        width: 28
-        height: 14
+        x: 976
+        y: 47
+        width: 172
+        height: 86
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3418ade368dbf248a3df0a8af52f7df
-      internalID: 338699534
+      spriteID: be4eaf60ac78764438451a6f00563732
+      internalID: -1545852678
       vertices: []
       indices: 
       edges: []
@@ -226,19 +226,19 @@ TextureImporter:
       name: Fox_JumpingSprite-Sheet_6
       rect:
         serializedVersion: 2
-        x: 193
-        y: 10
-        width: 30
-        height: 14
+        x: 1157
+        y: 59
+        width: 182
+        height: 86
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5854174fa859f254db8aa5cc9de942e2
-      internalID: 43014675
+      spriteID: 892e7706582d7bf4dbdd27e69c343d33
+      internalID: -114894819
       vertices: []
       indices: 
       edges: []
@@ -247,19 +247,19 @@ TextureImporter:
       name: Fox_JumpingSprite-Sheet_7
       rect:
         serializedVersion: 2
-        x: 225
-        y: 10
-        width: 30
-        height: 14
+        x: 1349
+        y: 59
+        width: 182
+        height: 86
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6704eebd8342af4479d8ddd2630f6966
-      internalID: -856027789
+      spriteID: 0e8a8ce790bc68b4d8f61411d62517bd
+      internalID: 404708117
       vertices: []
       indices: 
       edges: []
@@ -268,19 +268,19 @@ TextureImporter:
       name: Fox_JumpingSprite-Sheet_8
       rect:
         serializedVersion: 2
-        x: 258
-        y: 9
-        width: 29
-        height: 14
+        x: 1547
+        y: 52
+        width: 177
+        height: 88
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5616b55b870af7c4db798759c525b0ff
-      internalID: -1553927548
+      spriteID: 6d82915f9642ffe458abe1f6dbabbcf9
+      internalID: 521297483
       vertices: []
       indices: 
       edges: []
@@ -289,19 +289,19 @@ TextureImporter:
       name: Fox_JumpingSprite-Sheet_9
       rect:
         serializedVersion: 2
-        x: 292
-        y: 5
-        width: 27
-        height: 16
+        x: 1750
+        y: 28
+        width: 166
+        height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1b6fa55da1b55c4ca3438b8aa1bf34c
-      internalID: 970291833
+      spriteID: 2e4902bef4846354d852805bcefcb456
+      internalID: 972263264
       vertices: []
       indices: 
       edges: []
@@ -310,19 +310,19 @@ TextureImporter:
       name: Fox_JumpingSprite-Sheet_10
       rect:
         serializedVersion: 2
-        x: 323
+        x: 1937
         y: 0
-        width: 28
-        height: 13
+        width: 170
+        height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e97e26a7074837844aa63475f34208cf
-      internalID: 585850797
+      spriteID: eedae1d5777c4064499320f92fbd8db8
+      internalID: -839828521
       vertices: []
       indices: 
       edges: []
@@ -331,19 +331,19 @@ TextureImporter:
       name: Fox_JumpingSprite-Sheet_11
       rect:
         serializedVersion: 2
-        x: 355
+        x: 2118
         y: 0
-        width: 28
-        height: 13
+        width: 182
+        height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79bf57f84d9132944bb5113e4aa7b610
-      internalID: -1072419265
+      spriteID: 09e96dec88b761645b565278b3e99071
+      internalID: -75503022
       vertices: []
       indices: 
       edges: []
@@ -352,19 +352,19 @@ TextureImporter:
       name: Fox_JumpingSprite-Sheet_12
       rect:
         serializedVersion: 2
-        x: 387
+        x: 2320
         y: 0
-        width: 28
-        height: 14
+        width: 172
+        height: 86
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b39cac3791466a4da33293f323a67fc
-      internalID: -1530153497
+      spriteID: 434d8590a66af2b4f8c49b58b2a9515b
+      internalID: 1701239054
       vertices: []
       indices: 
       edges: []
@@ -373,19 +373,19 @@ TextureImporter:
       name: Fox_JumpingSprite-Sheet_13
       rect:
         serializedVersion: 2
-        x: 419
+        x: 2504
         y: 0
-        width: 28
-        height: 14
+        width: 179
+        height: 88
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9203fb08db072204285f5b5b268a1892
-      internalID: 1377550944
+      spriteID: 7052ac7c7731f2c4984b8c39f4bcdc29
+      internalID: -100779138
       vertices: []
       indices: 
       edges: []
@@ -401,20 +401,20 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Fox_JumpingSprite-Sheet_0: -461851169
-      Fox_JumpingSprite-Sheet_1: 39879748
-      Fox_JumpingSprite-Sheet_10: 585850797
-      Fox_JumpingSprite-Sheet_11: -1072419265
-      Fox_JumpingSprite-Sheet_12: -1530153497
-      Fox_JumpingSprite-Sheet_13: 1377550944
-      Fox_JumpingSprite-Sheet_2: 966421977
-      Fox_JumpingSprite-Sheet_3: -2130854804
-      Fox_JumpingSprite-Sheet_4: 452826104
-      Fox_JumpingSprite-Sheet_5: 338699534
-      Fox_JumpingSprite-Sheet_6: 43014675
-      Fox_JumpingSprite-Sheet_7: -856027789
-      Fox_JumpingSprite-Sheet_8: -1553927548
-      Fox_JumpingSprite-Sheet_9: 970291833
+      Fox_JumpingSprite-Sheet_0: 1072176549
+      Fox_JumpingSprite-Sheet_1: 654693634
+      Fox_JumpingSprite-Sheet_10: -839828521
+      Fox_JumpingSprite-Sheet_11: -75503022
+      Fox_JumpingSprite-Sheet_12: 1701239054
+      Fox_JumpingSprite-Sheet_13: -100779138
+      Fox_JumpingSprite-Sheet_2: -660013444
+      Fox_JumpingSprite-Sheet_3: 1307886306
+      Fox_JumpingSprite-Sheet_4: 2068514388
+      Fox_JumpingSprite-Sheet_5: -1545852678
+      Fox_JumpingSprite-Sheet_6: -114894819
+      Fox_JumpingSprite-Sheet_7: 404708117
+      Fox_JumpingSprite-Sheet_8: 521297483
+      Fox_JumpingSprite-Sheet_9: 972263264
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,27 +1,17 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class FoodCollection : MonoBehaviour
 {
-    public Health playerHealth;  // Reference to the player's Health script
-    public FoodCollectionUI foodUI;  // Reference to the Food Collection UI
+    public FoodManager foodManager;  // Reference to the FoodManager
+    public float foodAmountToAdd = 10f;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        // Check if the player collided with the food
         if (collision.CompareTag("Player"))
         {
-            Debug.Log("Food collected by player!");
-
-            // Add food to the UI
-            //foodUI.AddFood();
-
-            // Add 1 health to the player when food is collected
-            playerHealth.health += 1;
-
-            // Destroy the food object after collection
-            Destroy(gameObject);
+            Debug.Log("Food collected!");
+            foodManager.AddFood(foodAmountToAdd);  // Add food using FoodManager
+            Destroy(gameObject);  // Destroy the food object
         }
     }
 }

@@ -1,0 +1,686 @@
+fileFormatVersion: 2
+guid: d9b34a58f4340e14e89da3a4c2f571f1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fox_WakingUp-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 0
+        width: 162
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 215ecf809b08b9d40b45dd68dc707e54
+      internalID: -142703338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox_WakingUp-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 4573
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b32d14f4a3ff24ba23eb10a33982b3
+      internalID: 100754751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox_WakingUp-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 0
+        width: 163
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c44c3f31fcb8d54598f34377915750e
+      internalID: -920519016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox_WakingUp-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 0
+        width: 163
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac30cb6ae9411ca4aa17fd8e397210a0
+      internalID: -310652835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox_WakingUp-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 0
+        width: 161
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c69a91b89f6b03e4d8f47c830af102d6
+      internalID: 1496928508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox_WakingUp-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 0
+        width: 161
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69962d06425d8f242a6be1b05369970d
+      internalID: -1229250907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox_WakingUp-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 0
+        width: 163
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e90fccf6521d4449b9b3e2c93afff1
+      internalID: 783255971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox_WakingUp-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 0
+        width: 163
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa6dff89aab4fe49b145fd600d751ad
+      internalID: -207542155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox_WakingUp-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 0
+        width: 162
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653f97de927683c4f97879d19c7858f5
+      internalID: 676301005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox_WakingUp-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 0
+        width: 156
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce039e43ad5b2242bccc52681c8c239
+      internalID: -1923749738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox_WakingUp-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1754
+        y: 0
+        width: 158
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e576d26927627408b6a4556006462d
+      internalID: 1983305821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox_WakingUp-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1946
+        y: 0
+        width: 156
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b66b4f537c73e8a449b4be43f83ca90b
+      internalID: 1028056419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox_WakingUp-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 2139
+        y: 0
+        width: 156
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa900b3132250e149bddad478e488a01
+      internalID: 942566093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox_WakingUp-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 2331
+        y: 0
+        width: 156
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d5fae200fdbc049aec3750f342f228
+      internalID: -1430218382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox_WakingUp-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 2523
+        y: 0
+        width: 157
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab11a15ac9d496c4e988910d76478f78
+      internalID: -1909861489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox_WakingUp-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 2714
+        y: 0
+        width: 156
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c03d528cbe5e24f8e846159a756835
+      internalID: -1190450088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox_WakingUp-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 2907
+        y: 0
+        width: 156
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb7890c95c99af4a8cf8ca4ec822940
+      internalID: -1191753833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox_WakingUp-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 3099
+        y: 0
+        width: 156
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3095571a298e44ab7f34bb5dae2a33
+      internalID: 711336999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox_WakingUp-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 3292
+        y: 0
+        width: 156
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed6f3cfa46400e42b3d83178f543a47
+      internalID: -367055921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox_WakingUp-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 3482
+        y: 0
+        width: 157
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62354a5cfb690f4408fc024868dff2b4
+      internalID: -773010817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox_WakingUp-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 3675
+        y: 0
+        width: 163
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a292fd1a622c0547b864bc2be25c90c
+      internalID: 1077924044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox_WakingUp-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 3855
+        y: 0
+        width: 174
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff2c0e92e20cf94abff7806f0f30a44
+      internalID: -1028713043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox_WakingUp-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 4035
+        y: 0
+        width: 186
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b98463649eb4994cb2018ae3c06bdf8
+      internalID: -1437671302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox_WakingUp-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 4228
+        y: 0
+        width: 185
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb560c95a4edbe40b35917ccec30881
+      internalID: -1832163799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox_WakingUp-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 4623
+        y: 0
+        width: 175
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75987e1844be7a749a1f5a0f9e66e081
+      internalID: 1836247467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox_WakingUp-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 4689
+        y: 0
+        width: 299
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1119eb6f2c4e3b4a95a983954a2d300
+      internalID: -1076275993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Fox_WakingUp-Sheet_0: -142703338
+      Fox_WakingUp-Sheet_1: 100754751
+      Fox_WakingUp-Sheet_10: 1983305821
+      Fox_WakingUp-Sheet_11: 1028056419
+      Fox_WakingUp-Sheet_12: 942566093
+      Fox_WakingUp-Sheet_13: -1430218382
+      Fox_WakingUp-Sheet_14: -1909861489
+      Fox_WakingUp-Sheet_15: -1190450088
+      Fox_WakingUp-Sheet_16: -1191753833
+      Fox_WakingUp-Sheet_17: 711336999
+      Fox_WakingUp-Sheet_18: -367055921
+      Fox_WakingUp-Sheet_19: -773010817
+      Fox_WakingUp-Sheet_2: -920519016
+      Fox_WakingUp-Sheet_20: 1077924044
+      Fox_WakingUp-Sheet_21: -1028713043
+      Fox_WakingUp-Sheet_22: -1437671302
+      Fox_WakingUp-Sheet_23: -1832163799
+      Fox_WakingUp-Sheet_24: 1836247467
+      Fox_WakingUp-Sheet_25: -1076275993
+      Fox_WakingUp-Sheet_3: -310652835
+      Fox_WakingUp-Sheet_4: 1496928508
+      Fox_WakingUp-Sheet_5: -1229250907
+      Fox_WakingUp-Sheet_6: 783255971
+      Fox_WakingUp-Sheet_7: -207542155
+      Fox_WakingUp-Sheet_8: 676301005
+      Fox_WakingUp-Sheet_9: -1923749738
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
