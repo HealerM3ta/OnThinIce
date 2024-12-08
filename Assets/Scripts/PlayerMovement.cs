@@ -34,6 +34,9 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        // Check if the game is paused (time scale is 0)
+        if (Time.timeScale == 0) return;  // Skip the input handling when the game is paused
+
         movement.x = Input.GetAxisRaw("Horizontal");
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
 
@@ -123,6 +126,9 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
+        // Skip movement if the game is paused (time scale is 0)
+        if (Time.timeScale == 0) return;
+
         float currentSpeed = Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift) ? runSpeed : moveSpeed;
 
         if (!isClimbing)

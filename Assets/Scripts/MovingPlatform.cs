@@ -7,8 +7,6 @@ public class MovingPlatform : MonoBehaviour
 
     private Vector3 startPosition;
     private Vector3 targetPosition;
-    private bool movingRight = true;
-
     void Start()
     {
         // Save the initial position of the platform

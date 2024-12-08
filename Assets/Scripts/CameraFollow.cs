@@ -40,17 +40,17 @@ public class CameraFollow : MonoBehaviour
             transform.position = smoothedPosition;
         }
 
-        // Vertical movement - only move if player is outside top or bottom screen bounds
-        if (screenPoint.y > screenTopBound)
-        {
-            // Move the camera instantly to the new position above the player
-            transform.position = new Vector3(transform.position.x, player.position.y + offset.y, transform.position.z);
-        }
-        else if (screenPoint.y < screenBottomBound)
-        {
-            // Move the camera instantly to the new position below the player
-            transform.position = new Vector3(transform.position.x, player.position.y - offset.y, transform.position.z);
-        }
+        // // Vertical movement - only move if player is outside top or bottom screen bounds
+        // if (screenPoint.y > screenTopBound)
+        // {
+        //     // Move the camera instantly to the new position above the player
+        //     transform.position = new Vector3(transform.position.x, player.position.y + offset.y, transform.position.z);
+        // }
+        // else if (screenPoint.y < screenBottomBound)
+        // {
+        //     // Move the camera instantly to the new position below the player
+        //     transform.position = new Vector3(transform.position.x, player.position.y - offset.y, transform.position.z);
+        // }
 
     }
 }
